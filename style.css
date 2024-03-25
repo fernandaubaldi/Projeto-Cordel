@@ -13,9 +13,82 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-size: 1em;
 }
 
-body{
+html, body{
     font-family: var(--font1);
+    background-color: lightgray;
+    min-height: 100vh;
 }
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-family: var(--font3);
+    padding-left: 30px;
+}
+
+.imagem > p{
+    background-color: rgba(0, 0, 0, 0.274);
+    width: 350px;
+    padding-left: 5px;
+}
+
+
+.normal{
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.imagem{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+
